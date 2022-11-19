@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#calculator {
+    display: inline-block;  
+    margin: 40px auto; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3px;
+}
+
+#screen {
+    width: 320px;
+    height: 80px;
+    margin: 5px ;
+    /* direction: rtl;  */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)inset, -2px -2px 2px 1px rgba(0, 0, 0, 0.2) inset;
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    overflow: hidden;
+}
+
+#screen-1, #screen-2 {
+    text-align: right;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+#screen-1 {
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+#screen-2 {
+    height: 50px;
+    font-size: 38px;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.secondary-btn {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aliceblue;
+}
+
+button:hover {
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2); */
+    box-shadow: none;
+}
+
+#equal {
+    background-color: rgb(250, 190, 79);
+}
+
