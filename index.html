@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="./stylesheets/style.css">
-    <script src="./scripts/logic.js"></script>
+    <!-- <script src="./scripts/logic.js"></script> -->
+    <script src="./scripts/app.js"></script>
 </head>
 <body>
     <h1>Mini-Calculator</h1>
@@ -18,35 +19,35 @@
         <div id="buttons">
             <table>
                 <tr>
-                    <td><button class="secondary-btn">(</button></td>
-                    <td><button class="secondary-btn">)</button></td>
-                    <td><button class="secondary-btn">%</button></td>
-                    <td><button class="secondary-btn">AC</button></td>
+                    <td><button class="secondary-btn opr">(</button></td>
+                    <td><button class="secondary-btn opr">)</button></td>
+                    <td><button class="secondary-btn opr">%</button></td>
+                    <td><button class="secondary-btn opr">C</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
+                    <td><button class="num">7</button></td>
+                    <td><button class="num">8</button></td>
+                    <td><button class="num">9</button></td>
                     <!-- <td><button class="secondary-btn">&divide;</button></td> -->
-                    <td><button class="secondary-btn">/</button></td>
+                    <td><button class="secondary-btn opr">/</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button class="secondary-btn">X</button></td>
+                    <td><button class="num">4</button></td>
+                    <td><button class="num">5</button></td>
+                    <td><button class="num">6</button></td>
+                    <td><button class="secondary-btn opr">X</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button class="secondary-btn">-</button></td>
+                    <td><button class="num">1</button></td>
+                    <td><button class="num">2</button></td>
+                    <td><button class="num">3</button></td>
+                    <td><button class="secondary-btn opr">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>0</button></td>
-                    <td><button>.</button></td>
-                    <td><button id="equal">=</button></td>
-                    <td><button class="secondary-btn">+</button></td>
+                    <td><button class="num">0</button></td>
+                    <td><button class="num decimal">.</button></td>
+                    <td><button id="equal" class="opr">=</button></td>
+                    <td><button class="secondary-btn opr">+</button></td>
                 </tr>
             </table>
         </div>
